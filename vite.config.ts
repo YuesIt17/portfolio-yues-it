@@ -5,4 +5,5 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   base: "/portfolio-yues-it/",
+  envPrefix: "REACT_APP",
 });
